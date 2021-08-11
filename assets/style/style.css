@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #9e928125;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4b07e;
+  border-radius: 100px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c59758;
+  border-radius: 100px;
+}
+:root {
+  --main-color: #dec29b;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+}
+html {
+  scroll-behavior: smooth !important;
+  min-height: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: #1c1c20;
+  color: var(--main-color);
+  padding: 0% 5%;
+}
+.card-button-main {
+  color: #000;
+  background-color: var(--main-color);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+  font-weight: 500;
+  cursor: pointer;
+}
+.card-button-main:hover {
+  background-color: #856f52;
+  color: #fff;
+  font-weight: bolder;
+  transform: scale(1.1);
+}
+.uni-button {
+  text-decoration: none;
+  color: #000;
+}
+.card-button-main:hover .uni-button {
+  color: #fff;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  row-gap: 30px;
+}
+.card-img {
+  max-width: 300px;
+  max-height: 300px;
+}
+.card-image {
+  border-radius: 200px;
+  width: 100%;
+  height: 100%;
+}
+.card-head h1 {
+  font-size: 30px;
+  font-weight: 200;
+  font-style: oblique;
+}
+.card-head h1 span {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+}
+.card-subhead p {
+  font-size: 16px;
+  font-weight: 300;
+  font-style: oblique;
+}
+.card-subhead p span {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+.card-logo-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+.iconsvg {
+  fill: var(--main-color);
+  max-width: 35px;
+  max-height: 35px;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s ease-in-out;
+  font-weight: 500;
+  cursor: pointer;
+}
+.iconsvg:hover {
+  fill: #fff;
+  transform: scale(1.4);
+}
+.card-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+@media screen and (max-width: 700px) {
+  body {
+    padding: 10% 5%;
+  }
+  .card-img {
+    max-width: 200px !important;
+  }
+}

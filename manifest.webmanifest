@@ -1,0 +1,19 @@
+{
+  "name": "Emon's Portfolio Landing Page",
+  "short_name": "Landing Page",
+  "scope": ".",
+  "start_url": "index.html",
+  "theme_color": "#1C1C20",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1C1C20",
+  "description": "Landing Page For Emon's Portfolio",
+  "icons": [
+    {
+      "src": "https://landing.emonhoque.com/assets/img/logo/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
